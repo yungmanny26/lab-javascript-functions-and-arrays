@@ -30,6 +30,7 @@ describe('Find the maximum', () => {
   test('should declare a function named maxOfTwoNumbers', () => {
     expect(typeof maxOfTwoNumbers).toBe('function');
   });
+  function maxOfTwoNumbers()
 
   test('should return greater of two arguments - if the first argument greater', () => {
     expect(maxOfTwoNumbers(2, 1)).toBe(2);
